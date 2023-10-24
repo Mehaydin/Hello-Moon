@@ -1,0 +1,230 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* Sayfa arka planını beyaz yapar */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url('https://img.freepik.com/premium-vector/code-browser-icon-coding-element-cyber-security-icon-mobile-concept-web-apps-colored-code-browser-icon-can-be-used-web-mobile-vector-line-illustration_7280-8553.jpg?w=996') center/cover no-repeat;
+  text-align:start;
+  background-size:auto;
+  color: #e4e4e4;
+  padding:10vh 0vh;
+  font-family: 'Roboto', sans-serif;
+  background-blend-mode:hard-light; /* Arka plan resmini metinle karıştırır */
+}
+
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #333; /* Başlık metninin rengini siyah yapar */
+}
+
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #333;
+}
+
+#navbarToggleExternalContent {
+  background-color: #333;
+  opacity: 0.9;
+  transition: background-color 0.3s;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#nav ul li:last-child {
+  margin-right: 0;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4em;
+  
+}
+
+#nav ul li a:hover {
+  color: #0074D9; /* Parlak mavi rengi */
+}
+
+
+
+#about {
+  margin-left: 2%;
+  display: flex;
+  align-items: flex-start; /* İçerikleri dikey olarak yukarıda hizala */
+}
+
+
+.container h2{
+  margin-top: 30px;
+  margin-left: 0%;
+}
+#about img {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 20%; /* Resmin en fazla yarısı kadar genişlik olsun */
+}
+
+
+#info p{
+  font-size: 1.1em;
+  margin:2%;
+  padding:0%;
+  order: 3; /* Paragrafı alta kaydırır */
+}
+
+table {
+ 
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+#prj{
+  margin-left: 10%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#prj img{
+  
+  margin-left: 30%;
+  margin-right:10%;
+  margin-bottom: 5%;
+  max-width: 40%;
+}
+
+#projects {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+#projects ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#projects li {
+  margin-top: 5px;
+}
+
+#projects a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#projects a:hover {
+  color: #666;
+}
+
+
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+#contact p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #666;
+}
+
+
+#comments {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#comments h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#comments label {
+  font-weight: bold;
+}
+
+#comments input[type="text"],
+#comments textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#comments input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#comments input[type="submit"]:hover {
+  background-color: #666;
+}
+
+.comment-list {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h2 {
+  font-size: 1.5em;
+  margin-top:20px ;
+  font-family: 'Arial', sans-serif;
+
+}
